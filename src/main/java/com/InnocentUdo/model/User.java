@@ -84,12 +84,5 @@ public class User {
     public void setRole(USER_ROLE role) {
         this.role = role;
     }
-
-    public Set<Address> getAddresses() {
-        return addresses;
-    }
-
-    public void setAddresses(Set<Address> addresses) {
-        this.addresses = addresses;
-    }
+    
 }
