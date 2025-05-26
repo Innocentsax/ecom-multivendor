@@ -76,13 +76,5 @@ public class User {
     public void setMobile(String mobile) {
         this.mobile = mobile;
     }
-
-    public USER_ROLE getRole() {
-        return role;
-    }
-
-    public void setRole(USER_ROLE role) {
-        this.role = role;
-    }
     
 }
