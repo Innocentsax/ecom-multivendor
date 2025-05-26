@@ -68,13 +68,5 @@ public class User {
     public void setFullName(String fullName) {
         this.fullName = fullName;
     }
-
-    public String getMobile() {
-        return mobile;
-    }
-
-    public void setMobile(String mobile) {
-        this.mobile = mobile;
-    }
     
 }
