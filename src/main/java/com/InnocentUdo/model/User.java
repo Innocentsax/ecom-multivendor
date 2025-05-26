@@ -92,12 +92,4 @@ public class User {
     public void setAddresses(Set<Address> addresses) {
         this.addresses = addresses;
     }
-
-    public Set<Coupon> getUsedCoupons() {
-        return usedCoupons;
-    }
-
-    public void setUsedCoupons(Set<Coupon> usedCoupons) {
-        this.usedCoupons = usedCoupons;
-    }
 }
