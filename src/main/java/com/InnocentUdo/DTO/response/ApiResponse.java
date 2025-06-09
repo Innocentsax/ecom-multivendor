@@ -1,10 +1,9 @@
 package com.InnocentUdo.DTO.response;
 
-import lombok.*;
 
+import lombok.Data;
 
-@Getter
-@Setter
+@Data
 public class ApiResponse {
     private String message;
 
