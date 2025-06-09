@@ -1,11 +1,9 @@
 package com.InnocentUdo.DTO.request;
 
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
-@Getter
-@Setter
+@Data
 public class SignupRequest {
     private String email;
     private String fullName;
